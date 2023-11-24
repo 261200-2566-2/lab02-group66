@@ -38,8 +38,10 @@ public class AirPurifier {
         totalAirPurifiers();
         giveInfo(a);
         a.turnOff();
+
         AirPurifier b = new AirPurifier("yyy","456asd");
         b.turnOn();
+
         totalAirPurifiers();
         giveInfo(a);
         giveInfo(b);
